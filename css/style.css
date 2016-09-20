@@ -1,0 +1,32 @@
+@charset "UTF-8";
+@import url("reset.css");
+html, body, .warp {
+  height: 100%;
+  width: 100%;
+  overflow: hidden; }
+
+html {
+  font-size: 625%; }
+
+body {
+  font-family: "微软雅黑";
+  font-size: 16px; }
+
+.warp {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.header {
+  width: 100%;
+  height: 0.48rem;
+   }
+
+.main {
+  width: 100%;
+  -webkit-flex: 1; }
+
+.footer {
+  width: 100%;
+  height: 0.54rem; }
+
+/*# sourceMappingURL=style.css.map */
